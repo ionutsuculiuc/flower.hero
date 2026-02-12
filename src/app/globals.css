@@ -49,10 +49,26 @@ body {
   pointer-events: none;
 }
 
+/* ── Dark flower background (locations, RSVP) ── */
+
+.flower-bg-dark {
+  background: url("/flowers-bg.jpg") center center / cover no-repeat;
+  position: relative;
+}
+
+.flower-bg-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(60, 15, 28, 0.78);
+  pointer-events: none;
+  z-index: 1;
+}
+
 /* ── Text styles ── */
 
 .text-script {
-  font-family: var(--font-great-vibes), cursive;
+  font-family: var(--font-faith), cursive;
   color: #5c1a2a;
 }
 
