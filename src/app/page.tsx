@@ -346,7 +346,7 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            Locații
+            Locatii
           </motion.h2>
 
           <motion.div
@@ -453,11 +453,11 @@ export default function Home() {
             transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
           >
             {[
-              { time: "11:00", title: "Cununie Civilă", desc: "Primăria Timișoara" },
-              { time: "13:00", title: "Cununie Religioasă", desc: "Catedrala Mitropolitană" },
-              { time: "16:00", title: "Ședința foto", desc: "Parcul Rozelor" },
+              { time: "11:00", title: "Cununie Civila", desc: "Primaria Timisoara" },
+              { time: "13:00", title: "Cununie Religioasa", desc: "Catedrala Mitropolitana" },
+              { time: "16:00", title: "Sedinta foto", desc: "Parcul Rozelor" },
               { time: "18:00", title: "Cocktail de bun venit", desc: "Sala de evenimente" },
-              { time: "19:00", title: "Petrecere & Cină", desc: "Sala de evenimente" },
+              { time: "19:00", title: "Petrecere & Cina", desc: "Sala de evenimente" },
               { time: "00:00", title: "Tortul miresei", desc: "" },
             ].map((item, i, arr) => (
               <div key={i} className="flex items-stretch gap-6 sm:gap-10">
@@ -507,7 +507,7 @@ export default function Home() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            Confirmă prezența
+            Confirma prezenta
           </motion.h2>
 
           <motion.p
